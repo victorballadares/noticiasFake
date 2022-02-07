@@ -1,0 +1,43 @@
+*{
+    font-family:arial, sans-serif;
+}
+
+div > h1{
+    font-size: 100px;
+}
+
+.center{
+    
+    text-align: center;
+    background-color: aqua;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top:0px;
+    padding-bottom: 0px;
+    
+}
+
+.contenido{
+    background-color: white;
+    margin: 0 auto;
+    width: 800px;
+    padding:20 px;
+}
+
+#img{
+    width:80%;
+}
+#img2{
+    width:50%;
+}
+
+article{
+    padding-top: 20px;
+    /*la cantidad de columnas que quieres*/
+    column-count: 3;
+    /*el espacio entre columnas*/
+    column-gap: 40px;
+    /*linea que permite separar los parrafos añadiendo color*/
+    column-rule: solid 1px #ccc;
+}
+
